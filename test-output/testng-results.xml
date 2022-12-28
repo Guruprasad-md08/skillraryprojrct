@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="241963" started-at="2022-12-27T14:44:24 IST" finished-at="2022-12-27T14:48:26 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="241963" started-at="2022-12-27T14:44:24 IST" finished-at="2022-12-27T14:48:26 IST">
+      <class name="testRunner.TestCase2">
+        <test-method status="PASS" signature="OpenApp()[pri:0, instance:testRunner.TestCase2@371a67ec]" name="OpenApp" is-config="true" duration-ms="7751" started-at="2022-12-27T14:45:33 IST" finished-at="2022-12-27T14:45:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method status="PASS" signature="TC2()[pri:0, instance:testRunner.TestCase2@371a67ec]" name="TC2" duration-ms="148351" started-at="2022-12-27T14:45:41 IST" finished-at="2022-12-27T14:48:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2 -->
+        <test-method status="PASS" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:testRunner.TestCase2@371a67ec]" name="CloseApp" is-config="true" duration-ms="2714" started-at="2022-12-27T14:48:09 IST" finished-at="2022-12-27T14:48:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC2 status=SUCCESS method=TestCase2.TC2()[pri:0, instance:testRunner.TestCase2@371a67ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+      </class> <!-- testRunner.TestCase2 -->
+      <class name="testRunner.TestCase3">
+        <test-method status="PASS" signature="OpenApp()[pri:0, instance:testRunner.TestCase3@2353b3e6]" name="OpenApp" is-config="true" duration-ms="41011" started-at="2022-12-27T14:44:24 IST" finished-at="2022-12-27T14:45:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method status="PASS" signature="TC3()[pri:0, instance:testRunner.TestCase3@2353b3e6]" name="TC3" duration-ms="16291" started-at="2022-12-27T14:45:05 IST" finished-at="2022-12-27T14:45:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3 -->
+        <test-method status="PASS" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:testRunner.TestCase3@2353b3e6]" name="CloseApp" is-config="true" duration-ms="11310" started-at="2022-12-27T14:45:22 IST" finished-at="2022-12-27T14:45:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC3 status=SUCCESS method=TestCase3.TC3()[pri:0, instance:testRunner.TestCase3@2353b3e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+      </class> <!-- testRunner.TestCase3 -->
+      <class name="testRunner.Runner">
+        <test-method status="PASS" signature="OpenApp()[pri:0, instance:testRunner.Runner@5ed828d]" name="OpenApp" is-config="true" duration-ms="6521" started-at="2022-12-27T14:48:12 IST" finished-at="2022-12-27T14:48:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:testRunner.Runner@5ed828d]" name="Test1" duration-ms="7087" started-at="2022-12-27T14:48:18 IST" finished-at="2022-12-27T14:48:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:testRunner.Runner@5ed828d]" name="CloseApp" is-config="true" duration-ms="776" started-at="2022-12-27T14:48:25 IST" finished-at="2022-12-27T14:48:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test1 status=SUCCESS method=Runner.Test1()[pri:0, instance:testRunner.Runner@5ed828d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+      </class> <!-- testRunner.Runner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
